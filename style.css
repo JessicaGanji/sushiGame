@@ -1,0 +1,321 @@
+
+body {
+	background: url(assets/images/purpleTile.png);
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	cursor: pointer;
+	cursor: hand;
+	font-family: 'Overlock SC', Helvetica;
+	-webkit-font-smoothing: antialiased;
+}
+
+main {
+	background: url(assets/images/tile.png);
+	width: 810px;
+	height: 500px;
+	padding: 10px 0 10px 10px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	border-radius: 5px;
+	text-align: center;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0;
+}
+
+.orders {
+	float: left;
+	width: 800px;
+	height: 200px;
+	margin: 5px;
+}
+
+.orders section{
+	float: left;
+	width: 130px;
+	height: 180px;
+	padding: 10px;
+	margin-right: 10px;
+}
+
+.orders section h2 {
+	font-size: 14px;
+	line-height: 2.2;
+	color: white;
+	line-height: 2;
+	margin-top: 70px;
+}
+
+.ticketOne, .ticketTwo, .ticketThree, .ticketFour, .ticketFive {
+	background-image: url(assets/images/placeholderFront.png);
+	background-position: center center;
+	background-size: auto 100%;	
+	opacity: 1;
+}
+
+.ingredients {
+	background-image: url(assets/images/grayTile.png);
+	background-position: center center;
+	float: left;
+	width: 290px;
+	height: 260px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.ingredients section{
+	float: left;
+	width: 58px;
+	height: 65px;
+	background-position: center center;
+	background-size: 100% auto;
+}
+
+.board {
+	background: url(assets/images/boardTile.png);
+	float: left;
+	width: 290px;
+	height: 140px;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+}
+.board section{
+	float: left;
+	width: 58px;
+	height: 65px;
+}
+
+.trash {
+	background: url(assets/images/boardTile.png);
+	float: left;
+	width: 310px;
+	height: 30px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.timer {
+	background: url(assets/images/grayTile.png);
+	float: left;
+	width: 150px;
+	height: 70px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.dollars {
+	background: url(assets/images/grayTile.png);
+	float: left;
+	width: 150px;
+	height: 70px;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.timer h2, .dollars h2 {
+	line-height: 3;
+}
+
+.menu {
+	background: url(assets/images/menuTile.png);
+	float: right;
+	width: 140px;
+	height: 190px;
+	padding: 5px;
+	margin: 5px 15px 5px 5px;
+	border-radius: 0 5px 5px 0;
+}
+.menu h2{
+	color: white;
+	margin-top: 30px;
+}
+
+.book {
+	display: none;
+	background: url(assets/images/menuTile.png);
+	width: 730px;
+	height: 430px;
+	padding: 30px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	overflow: scroll;
+}
+
+.book section {
+	text-align: left;
+	padding: 0;
+	margin: 15px 0;
+}
+
+.book hr {
+	border-color: white;
+	border-width: 1px 0 0 0;
+}
+
+.book img {
+	float: right;
+	width: 58px;
+}
+
+.book h3 {
+	color: white;
+	font-size: 22px;
+}
+
+.book p {
+	color: white;
+	font-size: 12px;
+	font-family: Helvetica;
+	font-weight: 100;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	padding: 0;
+	margin: 0;
+}
+
+.book h4 {
+	color: white;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.switch {
+	background: url(assets/images/greenTile.png);
+	float: right;
+	width: 150px;
+	height: 30px;
+	margin: 5px 15px 5px 5px;
+	border-radius: 5px;
+}
+.switch h2 {
+	font-size: 16px;
+	line-height: 1.9;
+}
+
+.reset {
+	background: url(assets/images/grayTile.png);
+	float: right;
+	width: 70px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+	border-radius: 5px;
+}
+
+.rules {
+	background: url(assets/images/grayTile.png);
+	float: right;
+	width: 70px;
+	height: 30px;
+	margin: 5px 15px 5px 5px;
+	border-radius: 5px;
+}
+
+.info {
+	display: none;
+	background: url(assets/images/menuTile.png);
+	background-position: center center;
+	width: 730px;
+	height: 430px;
+	padding: 30px;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	overflow: scroll;
+}
+
+.trash h2, .rules h2, .reset h2 {
+	font-size: 14px;
+	line-height: 2.2;
+}
+
+.rice {
+	background: url(assets/images/rice.svg) no-repeat;
+}
+
+.nori {
+	background: url(assets/images/nori.svg) no-repeat;
+}
+
+.salmon {
+	background: url(assets/images/salmon.svg) no-repeat;
+}
+
+.tuna {
+	background: url(assets/images/tuna.svg) no-repeat;
+}
+
+.yellowtail {
+	background: url(assets/images/yellowtail.svg) no-repeat;
+}
+
+.shrimp {
+	background: url(assets/images/shrimp.svg) no-repeat;
+}
+
+.crab {
+	background: url(assets/images/crab.svg) no-repeat;
+}
+
+.lobster {
+	background: url(assets/images/lobster.svg) no-repeat;
+}
+
+.octopus {
+	background: url(assets/images/octopus.svg) no-repeat;
+}
+
+.squid {
+	background: url(assets/images/squid.svg) no-repeat;
+}
+
+.eel {
+	background: url(assets/images/eel.svg) no-repeat;
+}
+
+.uni {
+	background: url(assets/images/uni.svg) no-repeat;
+}
+
+.scallop {
+	background: url(assets/images/scallop.svg) no-repeat;
+}
+
+.redSnapper {
+	background: url(assets/images/redSnapper.svg) no-repeat;
+}
+
+.abalone {
+	background: url(assets/images/abalone.svg) no-repeat;
+}
+
+.mackerel {
+	background: url(assets/images/mackerel.svg) no-repeat
+	;
+}
+
+.halibut {
+	background: url(assets/images/halibut.svg) no-repeat;
+}
+
+.roe {
+	background: url(assets/images/roe.svg) no-repeat;
+}
+
+.tamagoyaki {
+	background: url(assets/images/egg.svg) no-repeat;
+}
+
+.vegetables {
+	background: url(assets/images/vegetables.svg) no-repeat;
+}
+

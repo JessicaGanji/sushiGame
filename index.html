@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sushi Game</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=Overlock+SC' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+<main>
+
+<div class="orders">
+	<section class="ticketOne"></section>	
+	<section class="ticketTwo"></section>	
+	<section class="ticketThree"></section>	
+	<section class="ticketFour"></section>	
+	<section class="ticketFive"></section>		
+</div>
+
+<div class="ingredients">
+	<section class="rice" title="Rice"></section>
+	<section class="nori" title="Nori"></section>
+	<section class="salmon" title="Salmon"></section>
+	<section class="tuna" title="Tuna"></section>
+	<section class="yellowtail" title="Yellowtail"></section>
+
+	<section class="redSnapper" title="Red Snapper"></section>
+	<section class="mackerel" title="Mackerel"></section>
+	<section class="halibut" title="Halibut"></section>
+	<section class="shrimp" title="Shrimp"></section>
+	<section class="crab" title="Crab"></section>
+
+	<section class="lobster" title="Lobster"></section>
+	<section class="octopus" title="Octopus"></section>
+	<section class="squid" title="Squid"></section>
+	<section class="eel" title="Eel"></section>
+	<section class="uni" title="Uni"></section>
+
+	<section class="scallop" title="Scallop"></section>
+	<section class="abalone" title="Abalone"></section>
+	<section class="roe" title="Roe"></section>
+	<section class="tamagoyaki" title="Egg / Tamagoyaki"></section>
+	<section class="vegetables" title="Vegetables"></section>
+</div>
+
+<div class="board"></div>
+
+<div class="menu"><h2>MENU<h2></div>
+
+<article class="book">
+
+	<section class="ajiNigiri"><img src="assets/images/mackerel.svg"><img src="assets/images/rice.svg">
+	<h3>Aji Nigiri</h3>
+	<p>Rice & Mackerel</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="akamiNigiri"><img src="assets/images/tuna.svg"><img src="assets/images/rice.svg">
+	<h3>Akami Nigiri</h3>
+	<p>Rice & Tuna</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="anagoNigiri"><img src="assets/images/eel.svg"><img src="assets/images/rice.svg">
+	<h3>Anago Nigiri</h3>
+	<p>Rice & Eel</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="amaebiNigiri"><img src="assets/images/shrimp.svg"><img src="assets/images/rice.svg">
+	<h3>Amaebi Nigiri</h3>
+	<p>Rice & Shrimp</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="buriNigiri"><img src="assets/images/yellowtail.svg"><img src="assets/images/rice.svg">
+	<h3>Buri Nigiri</h3>
+	<p>Rice & Yellowtail</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="californiaRoll"><img src="assets/images/crab.svg"><img src="assets/images/vegetables.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>California Roll</h3>
+	<p>Rice, Nori, Cucumber, Avocado & Imitation</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="chutoroNigiri"><img src="assets/images/tuna.svg"><img src="assets/images/rice.svg">
+	<h3>Chutoro Nigiri</h3>
+	<p>Rice & Tuna</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="ebiNigiri"><img src="assets/images/shrimp.svg"><img src="assets/images/rice.svg">
+	<h3>Ebi Nigiri</h3>
+	<p>Rice & Shrimp</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="futoMaki"><img src="assets/images/vegetables.svg"><img src="assets/images/egg.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>Futo Maki</h3>
+	<p>Rice, Nori, Egg, Kanpyo, Cucumber & Mushrooms</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="iseebiNigiri"><img src="assets/images/lobster.svg"><img src="assets/images/rice.svg">
+	<h3>Iseebi Nigiri</h3>
+	<p>Rice & Lobster</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="hamachiMaki"><img src="assets/images/yellowtail.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>Hamachi Maki</h3>
+	<p>Rice, Nori & Yellowtail</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="hotateNigiri"><img src="assets/images/scallop.svg"><img src="assets/images/rice.svg">
+	<h3>Hotate Nigiri</h3>
+	<p>Rice & Scallop</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="ikaNigiri"><img src="assets/images/squid.svg"><img src="assets/images/rice.svg">
+	<h3>Ika Nigiri</h3>
+	<p>Rice & Squid</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="ikuraGukan"><img src="assets/images/roe.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>Ikura Gukan</h3>
+	<p>Rice, Nori & Roe</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="kanpyoMaki"><img src="assets/images/vegetables.svg"><img src="assets/images/rice.svg">
+	<h3>Kanpyo Maki</h3>
+	<p>Rice & Pickled Kanpyo</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="kappaMaki"><img src="assets/images/vegetables.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>Kappa Maki</h3>
+	<p>Rice, Nori & Cucumbers</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="katsuoNigiri"><img src="assets/images/tuna.svg"><img src="assets/images/rice.svg">
+	<h3>Katsuo Nigiri</h3>
+	<p>Rice & Tuna</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="maguroNigiri"><img src="assets/images/tuna.svg"><img src="assets/images/rice.svg">
+	<h3>Maguro Nigiri</h3>
+	<p>Rice & Tuna</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="masagoNigiri"><img src="assets/images/roe.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>Masago Nigiri</h3>
+	<p>Rice, Nori & Smelt Roe</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="matsubaganiNigiri"><img src="assets/images/crab.svg"><img src="assets/images/rice.svg">
+	<h3>Matsubagani Nigiri</h3>
+	<p>Rice & Crab</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="ohyouNigiri"><img src="assets/images/halibut.svg"><img src="assets/images/rice.svg">
+	<h3>Ohyou Nigiri</h3>
+	<p>Rice & Halibut</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="sabaNigiri"><img src="assets/images/mackerel.svg"><img src="assets/images/rice.svg">
+	<h3>Saba Nigiri</h3>
+	<p>Rice & Mackerel</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="sakeNigiri"><img src="assets/images/salmon.svg"><img src="assets/images/rice.svg">
+	<h3>Sake Nigiri</h3>
+	<p>Rice & Salmon</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="taiNigiri"><img src="assets/images/redSnapper.svg"><img src="assets/images/rice.svg">
+	<h3>Tai Nigiri</h3>
+	<p>Rice & Red Snapper</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="takoNigiri"><img src="assets/images/octopus.svg"><img src="assets/images/rice.svg">
+	<h3>Tako Nigiri</h3>
+	<p>Rice & Octopus</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="tamagoyakiNigiri"><img src="assets/images/rice.svg"><img src="assets/images/egg.svg">
+	<h3>Tamagoyaki Nigiri</h3>
+	<p>Rice & Tamagoyaki</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="tekkaMaki"><img src="assets/images/rice.svg"><img src="assets/images/nori.svg"><img src="assets/images/tuna.svg">
+	<h3>Tekka Maki</h3>
+	<p>Rice, Nori & tuna</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="temarizushi"><img src="assets/images/rice.svg"><img src="assets/images/nori.svg">
+	<h3>Temarizushi</h3>
+	<p>Rice & Nori</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="tobikoNigiri"><img src="assets/images/rice.svg"><img src="assets/images/nori.svg"><img src="assets/images/roe.svg">
+	<h3>Tobiko Nigiri</h3>
+	<p>Rice, Nori & Flying Fish Roe</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="toroNigiri"><img src="assets/images/tuna.svg"><img src="assets/images/rice.svg">
+	<h3>Toro Nigiri</h3>
+	<p>Rice & Tuna</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="tsunamayoMaki"><img src="assets/images/rice.svg"><img src="assets/images/nori.svg"><img src="assets/images/vegetables.svg"><img src="assets/images/tuna.svg">
+	<h3>Tsunamayo Maki</h3>
+	<p>Rice, Nori, Cucumber, Tuna & Mayo</p>
+	<h4 class="price">$6.00</h4></section><hr>	
+
+	<section class="uniGukan"><img src="assets/images/uni.svg"><img src="assets/images/rice.svg">
+	<h3>Uni Nigiri</h3>
+	<p>Rice & Uni</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+	<section class="uraMaki"><img src="assets/images/vegetables.svg"><img src="assets/images/nori.svg"><img src="assets/images/rice.svg">
+	<h3>Ura Maki</h3>
+	<p>Rice, Nori, Cucumber & Avacado</p>
+	<h4 class="price">$6.00</h4></section><hr>
+
+</article>
+
+<article class="info">
+	<h2>Rules</h3>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</article>
+
+<div class="trash"><h2>TRASH BOARD (-$10.00)</h2></div>
+<div class="dollars"><h2>$00.00<h2></div>
+<div class="timer"><h2>00:00:00</h2></div>
+<div class="switch"><h2>START<h2></div>
+<div class="rules"><h2>RULES<h2></div>
+<div class="reset"><h2>RESET<h2></div>
+
+<audio id="clip">
+	<source src="assets/audio/222655__zagi2__koto-and-shamisen-loop.wav" type="audio/ogg" >
+</audio>
+
+<audio id="party">
+	<source src="assets/audio/AsianRiff_koto.ogg" type="audio/ogg" >
+</audio>
+
+</main>
+
+
+<script type="text/javascript" src="jquery-1.11.3.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
