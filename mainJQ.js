@@ -21,7 +21,6 @@ $( ".switch" ).on( "click", function () {
 		running = false
 		pauseClip()
 		isClickable = false
-
 	} else if ( switchCount > 1 ) {
 		$( ".switch" ).html( "<h2>PAUSE</h2>")
 		running = true		
@@ -72,13 +71,13 @@ function countDollars () {
 
 // Timer
 function increment () {	
-	var mins = Math.floor( timer/10/60 )
-	var secs = Math.floor( timer/10 )
+	var mins = Math.floor( timer/10/60 % 60 )
+	var secs = Math.floor( timer/10 % 60 )
 	var tenths = ( timer % 10 )
 	setTimeout ( function () {
-		if ( running === true && mins === 1  ) {
+		if ( running === true && ( mins === 3 && tenths === 1 ) ) {
 			pauseClip()
-			alert("GAME OVER! You managed to serve $"+ score +" worth of sushi in the last 60 seconds!")
+			alert("GAME OVER! You managed to serve $"+ score +" worth of sushi in round one!")
 		} else if ( running === true ) {
 			timer++
 			if ( mins < 10 ) {
@@ -231,7 +230,7 @@ $( ".squid" ).on( "click", function () {
 $( ".eel" ).on( "click", function () {
 	if ( isClickable ) {
 		var dupEel = ingredientsArray[13].cloneNode()
-		$$( ".board" ).append( dupEel )
+		$( ".board" ).append( dupEel )
 		boardArray.push( "eel" )
 		boardNodes = $( ".board section" )
 	}
@@ -277,7 +276,7 @@ $( ".tamagoyaki" ).on( "click", function () {
 	if ( isClickable ) {
 		var dupTamagoyaki = ingredientsArray[18].cloneNode()
 		$( ".board" ).append( dupTamagoyaki )
-		boardArray.push( "tamagoyaki" )
+		boardArray.push( "egg" )
 		boardNodes = $( ".board section" )
 	}
 } )
@@ -373,6 +372,12 @@ function winCelebration () {
 	$( ".orders section" ).html( " " )
 	$( ".orders section" ).css( { "background-image": "url(assets/gifs/" + gifArray[ winRN ] + ".gif)" } )
 
+	if ( gifArray.length === 0 ) {
+		sushiArray.push( "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen" )
+	} else {
+		gifArray.splice( winRN, 1 )
+	}
+
 	setTimeout(function(){
 		generateTicketOne()
 		generateTicketTwo()
@@ -381,7 +386,7 @@ function winCelebration () {
 		generateTicketFive()
 		pauseParty()
 		playClip()
-	}, 4000);
+	}, 2000);
 }
 
 // Rules
@@ -441,7 +446,7 @@ var toroNigiri = new Item( "Toro Nigiri", [ "rice", "tuna" ], 6 )
 var hamachiMaki = new Item( "Hamachi Maki", [ "rice", "nori", "yellowtail" ], 6 )	
 var ebiNigiri = new Item( "Ebi Nigiri", [ "rice", "shrimp" ], 6 )	
 var amaebiNigiri = new Item( "Amaebi Nigiri", [ "rice", "shrimp" ], 6 )	
-var tamagoyakiNigiri = new Item( "Tamagoyaki Nigiri", [ "rice", "tamagoyaki" ], 6 )	
+var tamagoyakiNigiri = new Item( "Tamagoyaki Nigiri", [ "rice", "egg" ], 6 )	
 var ikaNigiri = new Item( "Ika Nigiri", [ "rice", "squid" ], 6 )		
 var anagoNigiri = new Item( "Anago Nigiri", [ "rice", "eel" ], 6 )	
 var taiNigiri = new Item( "Tai Nigiri", [ "rice", "redSnapper" ], 6 )	
@@ -450,7 +455,7 @@ var takoNigiri = new Item( "tako Nigiri", [ "rice", "octopus" ], 6 )
 var tekkaMaki = new Item( "tekka Maki", [ "rice", "nori", "tuna" ], 6 )	
 var sabaNigiri = new Item( "Saba Nigiri", [ "rice", "mackerel" ], 6 )	
 var californiaRoll = new Item( "California Roll", [ "rice", "nori", "vegetables", "crab" ], 6 )	
-var futoMaki = new Item( "Futo Maki", [ "rice", "nori", "tamagoyaki", "vegetables" ], 6 )		
+var futoMaki = new Item( "Futo Maki", [ "rice", "nori", "egg", "vegetables" ], 6 )		
 var chutoroNigiri = new Item( "Chutoro Nigiri", [ "rice", "tuna" ], 6 )	
 var iseebiNigiri = new Item( "Iseebi Nigiri", [ "rice", "lobster" ], 6 )	
 var tsunamayoMaki = new Item( "Tsunamayo Maki", [ "rice", "nori", "vegetables", "tuna" ], 6 )	
@@ -463,10 +468,10 @@ var katsuoNigiri = new Item( "Katsuo Nigiri", [ "rice", "tuna" ], 6 )
 var temarizushi = new Item( "Temarizushi", [ "rice", "nori" ], 6 )	
 var ohyouNigiri = new Item( "Ohyou Nigiri", [ "rice", "halibut" ], 6 )	
 var akamiNigiri = new Item( "Akami Nigiri", [ "rice", "tuna" ], 6 )		
-var kanpyoMaki = new Item( "Kanpyo Maki", [ "rice", "vegetables" ], 6 )
+var kanpyoMaki = new Item( "Kanpyo Maki", [ "rice", "nori", "vegetables" ], 6 )
 var hotateNigiri = new Item( "Hotate Nigiri", [ "rice", "scallop" ], 6 )
 
 var sushiArray = [ ikuraGukan, sakeNigiri, kappaMaki, maguroNigiri, uniGukan, toroNigiri, hamachiMaki, ebiNigiri, amaebiNigiri, tamagoyakiNigiri, ikaNigiri, anagoNigiri, taiNigiri, ajiNigiri, takoNigiri, tekkaMaki, sabaNigiri, californiaRoll, futoMaki, chutoroNigiri, iseebiNigiri, tsunamayoMaki, buriNigiri, uraMaki, matsubaganiNigiri, tobikoNigiri, masagoNigiri, katsuoNigiri, temarizushi, ohyouNigiri, akamiNigiri, kanpyoMaki ]
 
 // Gifs
-var gifArray = [ "catsInSpace", "girl", "aliveSushi", "rolling", "excited", "racoon", "sleeping", "cat", "soysauce", "shrimp" ]
+var gifArray = [ "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen" ]
