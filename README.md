@@ -1,6 +1,6 @@
 # Sushi Memory Game
 
-My project aims to connect  students to tech mentors.
+Sushi Memory Game Description.
 
 [ Play Sushi Memory Game ](http://jessicaganji.com/sushigame)
 
@@ -8,17 +8,17 @@ My project aims to connect  students to tech mentors.
 
 ### Technologies Used
 
-* JavaScript
-
+* HTML5 + CSS3
+* JavaScript + jQuery
 * Adobe Creative Cloud (Photoshop & Illustrator)
 
 -
 
 #### Screenshots
 
-![ Sushi Memory Game ](readme/landing.png)
-![ Sushi Memory Game ](readme/celebrationtime.png)
-![ Sushi Memory Game ](readme/gameover.png)
+![ Sushi Memory Game ](assets/readme/landing.png)
+![ Sushi Memory Game ](assets/readme/celebrationtime.png)
+![ Sushi Memory Game ](assets/readme/gameover.png)
 
 -
 
@@ -40,6 +40,6 @@ My project aims to connect  students to tech mentors.
 
 #### Wireframes
 
-![ Sushi Memory Game Wireframe ](readme/wf01.png)
-![ Sushi Memory Game Wireframe ](readme/wf02.png)
-![ Sushi Memory Game Wireframe ](readme/wf03.png)
+![ Sushi Memory Game Wireframe ](assets/readme/wf01.png)
+![ Sushi Memory Game Wireframe ](assets/readme/wf02.png)
+![ Sushi Memory Game Wireframe ](assets/readme/wf03.png)
