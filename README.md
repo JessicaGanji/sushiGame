@@ -27,7 +27,7 @@ Sushi Memory Game Description.
 | As a .. | I can.. |
 |---------|---------|
 | Player | learn about sushi by memorizing popular sushi combinations |
-| Player | click start |
+| Player | click start to begin the game |
 | Player | check out order options, mentally select one out of five options |
 | Player | click on the menu and find the correct recipe |
 | Player | click menu background to go back to gameboard |
