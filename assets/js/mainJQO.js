@@ -11,7 +11,7 @@
 // Sushi
 function Sushi (name, ingredients, price) {
 	this.name = name
-	this.img = "../images/placeholderBack.png"
+  this.img = "/placeholderBack.png"
 	this.ingredients = ingredients
 	this.price = price
 }
