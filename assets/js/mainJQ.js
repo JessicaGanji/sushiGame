@@ -432,7 +432,7 @@ function generateTicketFive () {
 // Sushi
 function Item (name, ingredients, price) {
 	this.name = name
-	this.img = "/placeholderBack.png"
+	this.img = "../images/placeholderBack.png"
 	this.ingredients = ingredients
 	this.price = price
 }
