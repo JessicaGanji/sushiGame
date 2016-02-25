@@ -370,7 +370,7 @@ function winCelebration () {
 	playParty()
 	winRN = ( Math.floor( ( Math.random() * gifArray.length ) ) )
 	$( ".orders section" ).html( " " )
-	$( ".orders section" ).css( { "background-image": "url(assets/gifs/" + gifArray[ winRN ] + ".gif)" } )
+	$( ".orders section" ).css( { "background-image": "url(../gifs/" + gifArray[ winRN ] + ".gif)" } )
 
 	if ( gifArray.length === 0 ) {
 		sushiArray.push( "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen" )
@@ -402,31 +402,31 @@ $( ".info" ).on( "click", function () {
 function generateTicketOne () { 
 	ticketOneRN = ( Math.floor( ( Math.random() * sushiArray.length ) ) )
 	$( ".ticketOne" ).html( "<h2>" + sushiArray[ ticketOneRN ].name + "</h2>" )	
-	$( ".ticketOne" ).css( { "background-image": "url(assets/images" + sushiArray[ ticketOneRN ].img + ")" } )
+	$( ".ticketOne" ).css( { "background-image": "url(../images" + sushiArray[ ticketOneRN ].img + ")" } )
 }
 
 function generateTicketTwo () { 
 	ticketTwoRN = ( Math.floor( ( Math.random() * sushiArray.length ) ) )
 	$( ".ticketTwo" ).html( "<h2>" + sushiArray[ ticketTwoRN ].name + "</h2>" )	
-	$( ".ticketTwo" ).css( { "background-image": "url(assets/images" + sushiArray[ ticketTwoRN ].img + ")" } )	
+	$( ".ticketTwo" ).css( { "background-image": "url(../images" + sushiArray[ ticketTwoRN ].img + ")" } )	
 }
 
 function generateTicketThree () {
 	ticketThreeRN = ( Math.floor( ( Math.random() * sushiArray.length ) ) )
 	$( ".ticketThree" ).html( "<h2>" + sushiArray[ ticketThreeRN ].name + "</h2>" )
-	$( ".ticketThree" ).css( { "background-image": "url(assets/images" + sushiArray[ ticketThreeRN ].img + ")" } )		
+	$( ".ticketThree" ).css( { "background-image": "url(../images" + sushiArray[ ticketThreeRN ].img + ")" } )		
 }
 
 function generateTicketFour () { 
 	ticketFourRN = ( Math.floor( ( Math.random() * sushiArray.length ) ) )
 	$( ".ticketFour" ).html( "<h2>" + sushiArray[ ticketFourRN ].name + "</h2>" )
-	$( ".ticketFour" ).css( { "background-image": "url(assets/images" + sushiArray[ ticketFourRN ].img + ")" } )	
+	$( ".ticketFour" ).css( { "background-image": "url(../images" + sushiArray[ ticketFourRN ].img + ")" } )	
 }
 
 function generateTicketFive () { 
 	ticketFiveRN = ( Math.floor( ( Math.random() * sushiArray.length ) ) )
 	$( ".ticketFive" ).html( "<h2>" + sushiArray[ ticketFiveRN ].name + "</h2>" )
-	$( ".ticketFive" ).css( { "background-image": "url(assets/images" + sushiArray[ ticketFiveRN ].img + ")" } )	
+	$( ".ticketFive" ).css( { "background-image": "url(../images" + sushiArray[ ticketFiveRN ].img + ")" } )	
 }
 
 // Sushi

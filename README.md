@@ -1,6 +1,6 @@
-# Sushi Memory Game
+# Sushi Game
 
-Sushi Memory Game Description.
+Sushi Memory Game Description..
 
 [ Play Sushi Memory Game ](http://jessicaganji.com/sushigame)
 

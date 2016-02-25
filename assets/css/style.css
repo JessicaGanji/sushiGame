@@ -1,6 +1,6 @@
 
 body {
-	background: url(assets/images/purpleTile.png);
+	background: url(../images/purpleTile.png);
 	width: 100%;
 	height: 100%;
 	padding: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 main {
-	background: url(assets/images/tile.png);
+	background: url(../images/tile.png);
 	width: 810px;
 	height: 500px;
 	padding: 10px 0 10px 10px;
@@ -54,14 +54,14 @@ h1, h2, h3, h4 {
 }
 
 .ticketOne, .ticketTwo, .ticketThree, .ticketFour, .ticketFive {
-	background-image: url(assets/images/placeholderFront.png);
+	background-image: url(../images/placeholderFront.png);
 	background-position: center center;
 	background-size: auto 100%;	
 	opacity: 1;
 }
 
 .ingredients {
-	background-image: url(assets/images/grayTile.png);
+	background-image: url(../images/grayTile.png);
 	background-position: center center;
 	float: left;
 	width: 290px;
@@ -80,7 +80,7 @@ h1, h2, h3, h4 {
 }
 
 .board {
-	background: url(assets/images/boardTile.png);
+	background: url(../images/boardTile.png);
 	float: left;
 	width: 290px;
 	height: 140px;
@@ -95,7 +95,7 @@ h1, h2, h3, h4 {
 }
 
 .trash {
-	background: url(assets/images/boardTile.png);
+	background: url(../images/boardTile.png);
 	float: left;
 	width: 310px;
 	height: 30px;
@@ -104,7 +104,7 @@ h1, h2, h3, h4 {
 }
 
 .timer {
-	background: url(assets/images/grayTile.png);
+	background: url(../images/grayTile.png);
 	float: left;
 	width: 150px;
 	height: 70px;
@@ -113,7 +113,7 @@ h1, h2, h3, h4 {
 }
 
 .dollars {
-	background: url(assets/images/grayTile.png);
+	background: url(../images/grayTile.png);
 	float: left;
 	width: 150px;
 	height: 70px;
@@ -126,7 +126,7 @@ h1, h2, h3, h4 {
 }
 
 .menu {
-	background: url(assets/images/menuTile.png);
+	background: url(../images/menuTile.png);
 	float: right;
 	width: 140px;
 	height: 190px;
@@ -141,7 +141,7 @@ h1, h2, h3, h4 {
 
 .book {
 	display: none;
-	background: url(assets/images/menuTile.png);
+	background: url(../images/menuTile.png);
 	width: 730px;
 	height: 430px;
 	padding: 30px;
@@ -190,7 +190,7 @@ h1, h2, h3, h4 {
 }
 
 .switch {
-	background: url(assets/images/greenTile.png);
+	background: url(../images/greenTile.png);
 	float: right;
 	width: 150px;
 	height: 30px;
@@ -203,7 +203,7 @@ h1, h2, h3, h4 {
 }
 
 .reset {
-	background: url(assets/images/grayTile.png);
+	background: url(../images/grayTile.png);
 	float: right;
 	width: 70px;
 	height: 30px;
@@ -212,7 +212,7 @@ h1, h2, h3, h4 {
 }
 
 .rules {
-	background: url(assets/images/grayTile.png);
+	background: url(../images/grayTile.png);
 	float: right;
 	width: 70px;
 	height: 30px;
@@ -222,7 +222,7 @@ h1, h2, h3, h4 {
 
 .info {
 	display: none;
-	background: url(assets/images/menuTile.png);
+	background: url(../images/menuTile.png);
 	background-position: center center;
 	width: 730px;
 	height: 430px;
@@ -239,83 +239,83 @@ h1, h2, h3, h4 {
 }
 
 .rice {
-	background: url(assets/images/rice.svg) no-repeat;
+	background: url(../images/rice.svg) no-repeat;
 }
 
 .nori {
-	background: url(assets/images/nori.svg) no-repeat;
+	background: url(../images/nori.svg) no-repeat;
 }
 
 .salmon {
-	background: url(assets/images/salmon.svg) no-repeat;
+	background: url(../images/salmon.svg) no-repeat;
 }
 
 .tuna {
-	background: url(assets/images/tuna.svg) no-repeat;
+	background: url(../images/tuna.svg) no-repeat;
 }
 
 .yellowtail {
-	background: url(assets/images/yellowtail.svg) no-repeat;
+	background: url(../images/yellowtail.svg) no-repeat;
 }
 
 .shrimp {
-	background: url(assets/images/shrimp.svg) no-repeat;
+	background: url(../images/shrimp.svg) no-repeat;
 }
 
 .crab {
-	background: url(assets/images/crab.svg) no-repeat;
+	background: url(../images/crab.svg) no-repeat;
 }
 
 .lobster {
-	background: url(assets/images/lobster.svg) no-repeat;
+	background: url(../images/lobster.svg) no-repeat;
 }
 
 .octopus {
-	background: url(assets/images/octopus.svg) no-repeat;
+	background: url(../images/octopus.svg) no-repeat;
 }
 
 .squid {
-	background: url(assets/images/squid.svg) no-repeat;
+	background: url(../images/squid.svg) no-repeat;
 }
 
 .eel {
-	background: url(assets/images/eel.svg) no-repeat;
+	background: url(../images/eel.svg) no-repeat;
 }
 
 .uni {
-	background: url(assets/images/uni.svg) no-repeat;
+	background: url(../images/uni.svg) no-repeat;
 }
 
 .scallop {
-	background: url(assets/images/scallop.svg) no-repeat;
+	background: url(../images/scallop.svg) no-repeat;
 }
 
 .redSnapper {
-	background: url(assets/images/redSnapper.svg) no-repeat;
+	background: url(../images/redSnapper.svg) no-repeat;
 }
 
 .abalone {
-	background: url(assets/images/abalone.svg) no-repeat;
+	background: url(../images/abalone.svg) no-repeat;
 }
 
 .mackerel {
-	background: url(assets/images/mackerel.svg) no-repeat
+	background: url(../images/mackerel.svg) no-repeat
 	;
 }
 
 .halibut {
-	background: url(assets/images/halibut.svg) no-repeat;
+	background: url(../images/halibut.svg) no-repeat;
 }
 
 .roe {
-	background: url(assets/images/roe.svg) no-repeat;
+	background: url(../images/roe.svg) no-repeat;
 }
 
 .tamagoyaki {
-	background: url(assets/images/egg.svg) no-repeat;
+	background: url(../images/egg.svg) no-repeat;
 }
 
 .vegetables {
-	background: url(assets/images/vegetables.svg) no-repeat;
+	background: url(../images/vegetables.svg) no-repeat;
 }
 
