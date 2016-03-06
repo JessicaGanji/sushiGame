@@ -16,9 +16,8 @@ Sushi Memory Game Description..
 
 #### Screenshots
 
-![ Sushi Memory Game ](assets/images/readme/landing.png)
-![ Sushi Memory Game ](assets/images/readme/celebrationtime.png)
-![ Sushi Memory Game ](assets/images/readme/gameover.png)
+![ Sushi Memory Game ](assets/images/readme/sushi01.png)
+![ Sushi Memory Game ](assets/images/readme/sushi02.png)
 
 -
 
