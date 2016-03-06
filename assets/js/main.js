@@ -370,7 +370,7 @@ function winCelebration () {
 	playParty()
 	winRN = ( Math.floor( ( Math.random() * gifArray.length ) ) )
 	$( ".orders section" ).html( " " )
-	$( ".orders section" ).css( { "background-image": "url(../gifs/" + gifArray[ winRN ] + ".gif)" } )
+	$( ".orders section" ).css( { "background-image": "url(assets/gifs/" + gifArray[ winRN ] + ".gif)" } )
 
 	if ( gifArray.length === 0 ) {
 		sushiArray.push( "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen" )
