@@ -1,8 +1,6 @@
 # Sushi Game
 
-Sushi Memory Game Description..
-
-[ Play Sushi Memory Game ](http://jessicaganji.com/sushigame)
+[ jessicaganji.com/sushi ](http://jessicaganji.com/sushi)
 
 -
 
@@ -20,6 +18,17 @@ Sushi Memory Game Description..
 ![ Sushi Memory Game ](assets/images/readme/sushi02.png)
 
 -
+#### Rules 
+
+1. Click Start to run the timer and show your sushi orders.
+
+2. Click on the Menu in order to see what ingredients are necessary for your sushi.
+
+3. Click on the necessary ingredients (order matters) and then click the sushi card. If you selected the correct ingredients, you will collect your payment. If you select the wrong ingredients, you will have to clear the board and loose ten dollars.
+
+4. Play Again
+
+-
 
 #### User Stories
 
@@ -34,11 +43,3 @@ Sushi Memory Game Description..
 | Player | click on the order ticket when you have completed putting your ingredients on the board |
 | Player | enjoy animated gifs |
 | Player | trash my board by clicking the "TRASH BOARD" button |
-
--
-
-#### Wireframes
-
-![ Sushi Memory Game Wireframe ](assets/images/readme/wf01.png)
-![ Sushi Memory Game Wireframe ](assets/images/readme/wf02.png)
-![ Sushi Memory Game Wireframe ](assets/images/readme/wf03.png)
