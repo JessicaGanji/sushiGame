@@ -2,7 +2,6 @@
 
 [ jessicaganji.com/sushi ](http://jessicaganji.com/sushi)
 
--
 
 #### Technologies Used
 
@@ -10,14 +9,12 @@
 * JavaScript + jQuery
 * Adobe Creative Cloud (Photoshop & Illustrator)
 
--
 
 #### Screenshots
 
 ![ Sushi Memory Game ](assets/images/readme/sushi01.png)
 ![ Sushi Memory Game ](assets/images/readme/sushi02.png)
 
--
 #### Rules 
 
 1. Click Start to run the timer and show your sushi orders.
@@ -27,8 +24,6 @@
 3. Click on the necessary ingredients (order matters) and then click the sushi card. If you selected the correct ingredients, you will collect your payment. If you select the wrong ingredients, you will have to clear the board and loose ten dollars.
 
 4. Play Again
-
--
 
 #### User Stories
 
